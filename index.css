@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1C1C1C;
+}
+#unit-converter{
+    margin: 20px;
+    box-shadow: 0px 0px 20px #DDD4FF;
+    border-radius: 5px;
+}
+#container1{
+    background: #6943FF;
+    color: #ffffff;
+    width: 550px;
+    height: 285px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+h1{
+    margin: 33px 51px 30px 51px;
+    width: 448.4px;
+    height: 38px;
+    font-family: 'Inter', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    text-align: center;
+
+}
+#input-el{
+    width: 117px;
+    height: 83px;
+    border: 3px solid #B295FF;
+    border-radius: 5px;
+    background: transparent;
+    font-family: 'Inter', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    color: #ffffff;
+    text-align: center;
+}
+
+button{
+    margin: 25px 216px 34px 216px;
+    width: 117px;
+    height: 42px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-family: "Inter" 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#container2{
+    background: #1F2937;
+    width: 500px;
+    height: 550px;
+    margin: 0;
+    padding: 36px 25px 24px 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#box{
+    border-top-left-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 490px;
+    height: 150px;
+    background: #273549;
+    margin-top: 24px;
+    
+}
+#output{
+    width: 400px;
+    height: 70px;
+    text-align: center;
+    margin: 20px 88px 18px 88px;
+}
+#output h2{
+    color: #CCC1FF;
+    font-family: 'Inter', 'Times New Roman', Times, serif;
+    font-style: normal;
+    margin: 0;
+}
+#output p{
+    width: 400px;
+    color: #ffffff;
+    font-family: 'Inter', 'Times New Roman', Times, serif;
+    font-style: normal;
+}
